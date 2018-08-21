@@ -5,8 +5,8 @@
     <title>HTML Academy:  Нёрдс</title>
   </head>
   <body>
-  <fieldset>
     <header class="page-header">
+	<fieldset>
 	  <nav>
 	    <a class="main-header-logo" href="index.html"><svg class="logo-svg"></svg></a>
 	    <ul>
@@ -18,10 +18,10 @@
 		</ul>
 		<h1>МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h1>
 	  </nav>
-	  </header>
 	  </fieldset>
-	  <fieldset>
+	  </header>
 	  <main>
+	  <fieldset>
 	    <section> 
 		  <h2>СОРТИРОВАТЬ:</h2>
 		     <ul>
@@ -49,27 +49,54 @@
 		</section>
 		</fieldset>
 		<fieldset>
-		<section>
-		  <h2>Стоимость:</h2>
-		    <input type="range" min="0" max="15000" step="1">15000
-		</section>
-		<section>
+		  <section>
+		<form method="post" action="https://echo.htmlacademy.ru">
+		  <label for="count">Стоимость:
+		    <input type="range" min="0" max="15000" step="1">
+		  </label>
+		  <label for="from">ОТ
+		    <input type="button" value="0" id="from" disabled>
+		  </label>
+		  <label for="to">ДО
+		    <input type="button" value="15000" id="to" disabled>
+		  </label>
 		  <h2>Сетка:</h2>
-		    <input type="radio" checked value="Адаптивная">Адаптивная
-			<input type="radio" value="Фиксированная">Фиксированная
-			<input type="radio" value="Резиновая">Резиновая
-		</section>
-		<section>
+		  <ul>
+		    <label for="adaptive">Адаптивная
+		      <li><input type="radio" checked value="Адаптивная" id="adaptive"></li>
+			</label>
+			<label for="fixed">Фиксированная
+			<li><input type="radio" value="Фиксированная" id="fixed"></li>
+			</label>
+			<label for="rubber">Резиновая
+			<li><input type="radio" value="Резиновая" id="rubber"></li>
+			</label>
+			</ul>
 		  <h2>Особенности</h2>
-		    <input type="checkbox" value="Слайдер" checked>Слайдер
-			<input type="checkbox" value="Блок преимуществ">Блок преимуществ
-			<input type="checkbox" value="Новости" checked>Новости
-			<input type="checkbox" value="Галерея">Галерея
-			<input type="checkbox" value="Корзина">Корзина
-			<button type="submit" value="Показать">
-		</section>
+		  <ul>
+		    <label for="slider">Слайдер
+		    <li><input type="checkbox" value="Слайдер" checked id="slider"></li>
+			</label>
+			<label for="an array of benefits">Блок преимуществ
+			<li><input type="checkbox" value="Блок преимуществ" id="an array of benefits"></li>
+			</label>
+			<label for="news">Новости
+			<li><input type="checkbox" value="Новости" checked id="news"></li>
+			</label>
+			<label for="gallery">Галерея
+			<li><input type="checkbox" value="Галерея" id="gallery"></li>
+			</label>
+			<label for="basket">Корзина
+			<li><input type="checkbox" value="Корзина" id="basket"></li>
+			</label>
+			<label for="show">
+			<li><input type="button" value="Показать" id="show"></li>
+			</label>
+		  </ul>
+		  </section>
 		</fieldset>
 		<fieldset>
+		</main>
 		<footer>
 	    <section>
 		<img src="img/contacts.png">
@@ -91,6 +118,8 @@
 			    <button type="submit" id="send" name="Send">
 			  </label>
 		</section>
+		</fieldset>
+		<fieldset>
 	    <section>
 		  <h2>Давайте дружить, это выгодно!</h2>
 		    <p>Скидка 10% для друзей из социальных сетей.</p>
