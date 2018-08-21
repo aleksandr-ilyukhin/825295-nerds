@@ -5,7 +5,7 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-  <form action="https://echo.htmlacademy.ru" method="post">
+
     <fieldset>
     <header class="page-header">
 	  <nav>
@@ -107,6 +107,16 @@
 		    <p>191186, Санкт-Петербург,<br>ул.Б.Конюшенная,д.19/8</p>
 			<p>тел. +7(812)275-75-75</p>
 			<a href="#">НАПИШИТЕ НАМ</a>
+			<form method="post" action="https://echo.htmlacademy.ru">
+			  <label for="your-name">Ваше имя:
+			    <input type="login" name="name" id="your-name" placeholder="Представьтесь, пожалуйста">
+			  </label>
+			  <label for="your-email">Ваш e-mail:
+			    <input type="email" name="email" id="your-email" placeholder="Для отправки ответа">
+			  </label>
+			  <label for="text-of-the-letter">Текст письма:
+			    <textarea id="text-of-the-letter" name="text_of_the_letter" placeholder="В свободной форме"></textarea>
+			  </label>
 		</section>
 	    <section>
 		  <h2>Давайте дружить, это выгодно!</h2>
