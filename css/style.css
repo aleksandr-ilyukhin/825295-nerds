@@ -94,3 +94,15 @@ input[type="login"] {
 	width: 175px;
 }
 
+.slider-1 {
+	background-image: url:("../img/slider-1.png") no-repeat 1050px 50px;
+}
+
+.slider-2 {
+	background-image: url:("../img/slider-2.png") no-repeat 1050px 50px;
+}
+
+.slider-3 {
+	background-image: url:("../img/slider-3.png") no-repeat 1050px 50px;
+}
+
