@@ -1,5 +1,12 @@
 body {
-	font-family: Roboto,Arial,sans-serif;
+margin: 0; 
+padding: 0; 
+font-family: Roboto,Arial,sans-serif; 
+font-size: 16px; 
+line-height: 24px; 
+font-weight: 400; 
+color: #283136; 
+background-color: #fff;
 }
 
 .page-header {
@@ -8,19 +15,48 @@ body {
 }
 
 .red-button {
-	background-color: red;
-	color: white;
-	border:
+display: block; 
+width: 234px; 
+padding: 13px 0; 
+margin-top: 25px; 
+font-size: 16px; 
+line-height: 18px; 
+color: #fff; 
+text-transform: uppercase; 
+text-align: center; 
+background: #fb565a; 
+border-radius: 3px; 
+border: 3px solid #fb565a;
 }
 
-.green-buttom {
-	background-color: green;
-	color: black;
+.green-button {
+display: block; 
+width: 234px; 
+padding: 13px 0; 
+margin-top: 25px; 
+font-size: 16px; 
+line-height: 18px; 
+color: #fff; 
+text-transform: uppercase; 
+text-align: center; 
+background: #008000; 
+border-radius: 3px; 
+border: 3px solid #008000;
 }
 
 .yellow-button {
-	background-color: yellow;
-	color: white;
+display: block; 
+width: 234px; 
+padding: 13px 0; 
+margin-top: 25px; 
+font-size: 16px; 
+line-height: 18px; 
+color: #fff; 
+text-transform: uppercase; 
+text-align: center; 
+background: #FFFF00; 
+border-radius: 3px; 
+border: 3px solid #FFFF00;
 }
 
 .page-number {
@@ -31,11 +67,21 @@ body {
 
 h1 {
 	font-weight: bold;
-	
 }
 
 h2 {
 	font-weight: bold;
 }
 
+h3 {
+	font-weight: bold;
+}
+
+caption {
+	font-weight: bold;
+}
+
+input[type="login"] {
+	width: 175px;
+}
 
