@@ -24,7 +24,7 @@ line-height: 18px;
 color: #fff; 
 text-transform: uppercase; 
 text-align: center; 
-background: #db575a; 
+background: #fb565a; 
 border-radius: 3px; 
 border: 3px solid #db575a;
 }
@@ -39,7 +39,7 @@ line-height: 18px;
 color: #fff; 
 text-transform: uppercase; 
 text-align: center; 
-background: #71c978; 
+background: #00ca74; 
 border-radius: 3px; 
 border: 3px solid #71c978;
 }
@@ -54,7 +54,7 @@ line-height: 18px;
 color: #fff; 
 text-transform: uppercase; 
 text-align: center; 
-background: #e4c755; 
+background:  #efc84a; 
 border-radius: 3px; 
 border: 3px solid #e4c755;
 }
@@ -153,4 +153,9 @@ input[type="login"] {
 	background-color: #e1e1e1;
 	border: 1px solid #e1e1e1;
 	border-radius: 50%;
+}
+
+.basket {
+	background-image: url:("../img/cart-icon.svg") no-repeat;
+	background-color: #a4a4a4;
 }
