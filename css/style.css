@@ -155,7 +155,31 @@ input[type="login"] {
 	border-radius: 50%;
 }
 
-.basket {
-	background-image: url:("../img/cart-icon.svg") no-repeat;
-	background-color: #a4a4a4;
+caption {
+	font-weight: bold;
+}
+
+th {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.fiftheen {
+	text-align: left;
+}
+
+.cart-block::before {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+	width: 15px;
+	height: 15px;
+	background-size: 15px auto;
+	background-image: url(../img/cart-icon.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.cart-block::before, .current::after, .description ul li::before {
+	content: "";
 }
