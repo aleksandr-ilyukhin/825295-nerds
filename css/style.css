@@ -26,7 +26,7 @@ text-transform: uppercase;
 text-align: center; 
 background: #fb565a; 
 border-radius: 3px; 
-border: 3px solid #db575a;
+border: 3px solid #fb565a;
 }
 
 .green-button {
@@ -41,7 +41,7 @@ text-transform: uppercase;
 text-align: center; 
 background: #00ca74; 
 border-radius: 3px; 
-border: 3px solid #71c978;
+border: 3px solid #00ca74;
 }
 
 .yellow-button {
@@ -56,7 +56,7 @@ text-transform: uppercase;
 text-align: center; 
 background:  #efc84a; 
 border-radius: 3px; 
-border: 3px solid #e4c755;
+border: 3px solid #efc84a;
 }
 
 .page-number {
@@ -164,10 +164,6 @@ th {
 	font-size: 40px;
 }
 
-.fiftheen {
-	text-align: left;
-}
-
 .cart-block::before {
 	position: absolute;
 	top: 35px;
@@ -178,6 +174,10 @@ th {
 	background-image: url(../img/cart-icon.svg);
 	background-repeat: no-repeat;
 	background-position: 0 0;
+}
+
+.cart-block {
+	position: relative;	
 }
 
 .cart-block::before, .current::after, .description ul li::before {
