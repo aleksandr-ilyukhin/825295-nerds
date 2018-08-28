@@ -185,12 +185,12 @@ th {
 }
 
 input[type=radio]:checked+label::before {
-	background-image: url("..img/radio-on.svg");
+	background-image: url("../img/radio-on.svg");
 	opacity: .5;
 }
 
 input[type=radio]+label::before {
-	background-image: url("..img/radio-off.svg");
+	background-image: url("../img/radio-off.svg");
 	opacity:  .5;
 }
 

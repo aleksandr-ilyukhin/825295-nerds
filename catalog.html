@@ -6,8 +6,8 @@
 	<link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header class="page-header">
-	  <nav>
+    <header class="main-header">
+	  <nav class="main-navigation">
 	    <a class="main-header-logo" href="index.html"><img src="img/nerds-logo.svg"><svg class="logo-svg"></svg></a>
 	    <ul>
 		  <li><a href="studio.html">Студия</a></li>
@@ -20,7 +20,7 @@
 	  </nav>
 	  </header>
 	  <main>
-	    <section> 
+	    <section class="filter"> 
 		  <h2>СОРТИРОВАТЬ:</h2>
 		     <ul>
 			  <li><a href="#">ПО ЦЕНЕ</a></li>
@@ -38,23 +38,23 @@
 			  <li><a href="#"><img src="img/img-kvast_pic.png" alt="КВАСТ"></a><h3>КВАСТ</h3><p>Промо-сайт производителя<br>крафтового кваса</p><a class="red-button" href="#">9900 РУБ</a></div>
 			</ul>
 		    <ul>
-			  <li><a href="#" class="page-number-one">1</a></li>
-			  <li><a href="#" class="page-number">2</a></li>
-			  <li><a href="#" class="page-number">3</a></li>
-			  <li><a href="#" class="page-number-next">СЛЕДУЮЩАЯ</a></li>
+			  <li><a type="button" href="#" class="page-number-one">1</a></li>
+			  <li><a type="button" href="#" class="page-number-two">2</a></li>
+			  <li><a type="button" href="#" class="page-number-three">3</a></li>
+			  <li><a type="button" href="#" class="page-number-next">СЛЕДУЮЩАЯ</a></li>
 			</ul>
 		</section>
-		  <section>
+		<section class="count">
 		<form method="post" action="https://echo.htmlacademy.ru">
 		<fieldset>
 		  <ul>
-		    <h2><label for="count">Стоимость:<input type="range" min="0" max="15000" step="1"></h2>
+		    <li><label for="count">Стоимость:<input type="range" min="0" max="15000" step="1" id="count" name="count"></label></li>
 		  </ul>
 		  <ul>
-		    <li><label for="from">ОТ <input type="button" value="0" id="from"></li>
+		    <li><label for="from">ОТ <input type="button" value="0" id="from" name="from"></label></li>
 		  </ul>
 		  <ul>
-		    <li><label for="to">ДО <input type="button" value="15000" id="to"></li>
+		    <li><label for="to">ДО <input type="button" value="15000" id="to" name="to"></label></li>
 		  </ul>
 		  </fieldset>
 		  <fieldset>
