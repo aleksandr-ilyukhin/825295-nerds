@@ -204,3 +204,18 @@ input[type=checkbox]+label::before, input[type=radio]+label:before{
 	left: 0;
 	content: "";
 }
+
+label {
+	position: relative;
+}
+
+
+input[type=checkbox]+label::before {
+	background-image: url("../img/checkbox-off.svg");
+	opacity: .5;
+}
+
+input[type=checkbox]:checked+label::before {
+	background-image: url("../img/checkbox-on.svg");
+    opacity: .5;
+}

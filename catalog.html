@@ -48,17 +48,32 @@
 		<form method="post" action="https://echo.htmlacademy.ru">
 		<fieldset>
 		  <ul>
-		    <li><label for="count">Стоимость:<input type="range" min="0" max="15000" step="1" id="count" name="count"></label></li>
+		    <li>
+			  <label for="count">
+			  <h3>СТОИМОСТЬ:</h3>
+			  </label>
+			  <input type="range" min="0" max="15000" step="1" id="count" name="count">
+			</li>
+		 </ul>
+		  <ul>
+		    <li>
+			  <label for="from">
+			    ОТ 
+			  </label>
+			  <input type="button" value="0" id="from" name="from">
+			</li>
 		  </ul>
 		  <ul>
-		    <li><label for="from">ОТ <input type="button" value="0" id="from" name="from"></label></li>
-		  </ul>
-		  <ul>
-		    <li><label for="to">ДО <input type="button" value="15000" id="to" name="to"></label></li>
+		    <li>
+			  <label for="to">
+			    ДО 
+			  </label>
+			  <input type="button" value="15000" id="to" name="to">
+			</li>
 		  </ul>
 		  </fieldset>
 		  <fieldset>
-		  <h2>Сетка:</h2>
+		  <h3>СЕТКА:</h3>
 		    <ul>
 		      <li>
 			    <input type="radio" id="adaptive-radio" name="adaptive" checked>
@@ -81,7 +96,7 @@
 			</ul>
 			</fieldset>
 			<fieldset>
-		  <h2>Особенности</h2>
+		  <h3>ОСОБЕННОСТИ</h3>
 		    <ul>
 			  <li>
 			    <input type="checkbox" id="slider-checkbox" name="slider" checked>
@@ -113,8 +128,11 @@
 			    Корзина
 			  </label>
 			  </li>
+			  </ul>
+		  <label for="show">
+		  <a type="button" href="#" id="show" class="show">ПОКАЗАТЬ</a>
+		  </label>
 		  </fieldset>
-		  <label for="show"><input type="button" value="Показать" id="show" class="page-number"></label>
 		  </form>
 		  </section>
 		  </main>
