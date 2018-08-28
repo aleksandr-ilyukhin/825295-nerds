@@ -188,14 +188,14 @@ input[type=radio]:checked+label::before {
 	background-image: url("../img/radio-on.svg");
 	opacity: .5;
 	position: absolute;
-	left: -30px;
+	left: -26px;
 }
 
 input[type=radio]+label::before {
 	background-image: url("../img/radio-off.svg");
 	opacity: .5;
 	position: absolute;
-	left: -30px;
+	left: -26px;
 }
 
 input[type=checkbox]+label::before, input[type=radio]+label:before{
@@ -218,16 +218,16 @@ input[type=checkbox]+label::before {
 	background-image: url("../img/checkbox-off.svg");
 	opacity: .5;
 	position: absolute;
-	left: -30px;
+	left: -26px;
 }
 
 input[type=checkbox]:checked+label::before {
 	background-image: url("../img/checkbox-on.svg");
     opacity: .5;
 	position: absolute;
-	left: -30px;
+	left: -26px;
 }
 
-input {
-	display: none;
+ul {
+	list-style-type: none;
 }
