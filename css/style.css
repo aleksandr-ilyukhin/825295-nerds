@@ -232,14 +232,159 @@ ul {
 	list-style-type: none;
 }
 
-a.main-header-logo img:hover {
-	background-color: #303030;
-}
 
-a.main-header-logo img:focus {
-	background-color: #a6a6a6;
-}
 
 .navigation-content a:hover {
 	color: red;
+}
+
+.navigation-content a:focus {
+	color: #bcbcbc;
+}
+
+.navigation-content a:active {
+	border-bottom: 10px solid #fb565a;
+}
+
+img.img-logo:hover {
+	color: #303030;
+}
+
+a.red-button:hover {
+	background-color: #e74246;
+}
+
+a.red-button:focus {
+	background-color: #d7373b;
+	color: #e38486;
+}
+
+a.green-button:hover {
+	background-color: #00bc6c;
+}
+
+a.green-button:focus {
+	background-color: #00aa62;
+	color: #74c69a;
+}
+
+a.yellow-button:hover {
+	background-color: #eab534;
+}
+
+a.yellow-button:focus {
+	background-color: #e5a722;
+	color: #edc47c;
+}
+
+a.social-button:hover {
+	background-color: #e74246;
+}
+
+a.social-button:focus {
+	background-color: #d7373b;
+	color: #e37376;
+}
+
+ul.login-field input:hover {
+	border-color: #b4b9bb;
+}
+
+ul.login-field input:focus {
+	border-color: #000000;
+	color: #444444;
+}
+
+ul.login-field input:invalid {
+	border-color: #e74246;
+	color: e95458;
+}
+
+ul.email-field input:hover {
+	border-color: #b4b9bb;
+}
+
+ul.email-field input:focus {
+	border-color: #000000;
+	color: #444444;
+}
+
+ul.email input:invalid {
+	border-color: #e74246;
+	color: e95458;
+}
+
+ul.comment-field textarea:hover {
+	border-color: #b4b9bb;
+}
+
+ul.comment-field textarea:focus {
+	border-color: #000000;
+	color: #444444;
+}
+
+ul.comment-field textarea:invalid {
+	border-color: #e74246;
+	color: e95458;
+}
+
+input	.show:hover {
+	background-color: #dfdfdf;
+	
+}
+
+input.show:focus {
+	background-color: #d5d5d5;
+	color: #a8a8a8;
+}
+
+ul.buttons-list input.page-number-digit:hover {
+	background-color: #dfdfdf;
+}
+
+ul.buttons-list input.page-number-digit:focus {
+	background-color: #d5d5d5;
+	color: #a8a8a8;
+}
+
+ul.buttons-list input.page-number-digit:active {
+	background-color: #ffffff;
+	color: #a8a8a8;
+	border-color: #dbdbdb;
+}
+
+ul.filter-content a:hover {
+	color: #8b8b8b;
+}
+
+ul.filter-content a:focus {
+	color: #000000;
+}
+
+ul.filter-content a:active {
+	color: #000000;
+}
+
+ul.filter-content a img:hover {
+	color: #a6a6a6;
+}
+
+ul.grid-content input:hover {
+	color: #4d4d4d;
+	border-color: #4d4d4d;
+}
+
+ul.grid-content input:disabled {
+	color: #ededed;
+	border-color: #ededed;
+}
+
+ul.peculiar-properties input:hover {
+	color: #4d4d4d;
+	border-color: #4d4d4d;
+}
+
+ul.peculiar-properties input:disabled {
+	color: #ededed;
+	border-color: #ededed;
 }
