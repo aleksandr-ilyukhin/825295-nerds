@@ -388,3 +388,7 @@ ul.peculiar-properties input:disabled {
 	color: #ededed;
 	border-color: #ededed;
 }
+
+ul.partners-list img:hover {
+	color: #0f0f0f;
+}
