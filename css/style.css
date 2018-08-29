@@ -188,14 +188,14 @@ input[type=radio]:checked+label::before {
 	background-image: url("../img/radio-on.svg");
 	opacity: .5;
 	position: absolute;
-	left: -26px;
+	left: -56px;
 }
 
 input[type=radio]+label::before {
 	background-image: url("../img/radio-off.svg");
 	opacity: .5;
 	position: absolute;
-	left: -26px;
+	left: -56px;
 }
 
 input[type=checkbox]+label::before, input[type=radio]+label:before{
@@ -230,4 +230,16 @@ input[type=checkbox]:checked+label::before {
 
 ul {
 	list-style-type: none;
+}
+
+a.main-header-logo img:hover {
+	background-color: #303030;
+}
+
+a.main-header-logo img:focus {
+	background-color: #a6a6a6;
+}
+
+.navigation-content a:hover {
+	color: red;
 }
