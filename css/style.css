@@ -402,11 +402,11 @@ b.sliders {
 	padding: 0;
 }
 
-b {
-	display: block;
-	margin-bottom: 22px;
-	padding-top: 34px;
-	font-size: 45px;
-	line-height: 45px;
-	color: #000;
+b.order, b.description, b.lets-be-friends {
+display: block; 
+margin-bottom: 22px; 
+padding-top: 34px; 
+font-size: 24px; 
+line-height: 30px; 
+color: #000; 
 }
