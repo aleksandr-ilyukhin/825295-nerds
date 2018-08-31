@@ -107,19 +107,19 @@ border-radius: 3px;
 border: 3px solid #ededed;
 }
 
-h1 {
+.visually-hidden {
 	font-weight: bold;
 }
 
-h2 {
+.visually-hidden {
 	font-weight: bold;
 }
 
-h3 {
+.visually-hidden {
 	font-weight: bold;
 }
 
-caption {
+.sinse-2004 {
 	font-weight: bold;
 }
 
@@ -155,11 +155,7 @@ input[type="login"] {
 	border-radius: 50%;
 }
 
-caption {
-	font-weight: bold;
-}
-
-th {
+.interest {
 	font-weight: bold;
 	font-size: 40px;
 }
@@ -234,166 +230,166 @@ ul {
 
 
 
-.navigation-content a:hover {
+.navigation-content:hover {
 	color: red;
 }
 
-.navigation-content a:focus {
+.navigation-content:focus {
 	color: #bcbcbc;
 }
 
-.navigation-content a:active {
+.navigation-content :active {
 	border-bottom: 10px solid #fb565a;
 }
 
-img.img-logo:hover {
+.img-logo:hover {
 	color: #303030;
 }
 
-a.red-button:hover {
+.red-button:hover {
 	background-color: #e74246;
 }
 
-a.red-button:focus {
+.red-button:focus {
 	background-color: #d7373b;
 	color: #e38486;
 }
 
-a.green-button:hover {
+.green-button:hover {
 	background-color: #00bc6c;
 }
 
-a.green-button:focus {
+.green-button:focus {
 	background-color: #00aa62;
 	color: #74c69a;
 }
 
-a.yellow-button:hover {
+.yellow-button:hover {
 	background-color: #eab534;
 }
 
-a.yellow-button:focus {
+.yellow-button:focus {
 	background-color: #e5a722;
 	color: #edc47c;
 }
 
-a.social-button:hover {
+.social-button:hover {
 	background-color: #e74246;
 }
 
-a.social-button:focus {
+.social-button:focus {
 	background-color: #d7373b;
 	color: #e37376;
 }
 
-ul.login-field input:hover {
+.login-field:hover {
 	border-color: #b4b9bb;
 }
 
-ul.login-field input:focus {
+.login-field:focus {
 	border-color: #000000;
 	color: #444444;
 }
 
-ul.login-field input:invalid {
+.login-field:invalid {
 	border-color: #e74246;
 	color: e95458;
 }
 
-ul.email-field input:hover {
+.email-field:hover {
 	border-color: #b4b9bb;
 }
 
-ul.email-field input:focus {
+.email-field:focus {
 	border-color: #000000;
 	color: #444444;
 }
 
-ul.email input:invalid {
+.email:invalid {
 	border-color: #e74246;
 	color: e95458;
 }
 
-ul.comment-field textarea:hover {
+.comment-field:hover {
 	border-color: #b4b9bb;
 }
 
-ul.comment-field textarea:focus {
+.comment-field:focus {
 	border-color: #000000;
 	color: #444444;
 }
 
-ul.comment-field textarea:invalid {
+.comment-field:invalid {
 	border-color: #e74246;
 	color: e95458;
 }
 
-input	.show:hover {
+.show:hover {
 	background-color: #dfdfdf;
 	
 }
 
-input.show:focus {
+.show:focus {
 	background-color: #d5d5d5;
 	color: #a8a8a8;
 }
 
-ul.buttons-list input.page-number-digit:hover {
+.buttons-list .page-number-digit:hover {
 	background-color: #dfdfdf;
 }
 
-ul.buttons-list input.page-number-digit:focus {
+.buttons-list .page-number-digit:focus {
 	background-color: #d5d5d5;
 	color: #a8a8a8;
 }
 
-ul.buttons-list input.page-number-digit:active {
+.buttons-list .page-number-digit:active {
 	background-color: #ffffff;
 	color: #a8a8a8;
 	border-color: #dbdbdb;
 }
 
-ul.filter-content a:hover {
+.filter-content:hover {
 	color: #8b8b8b;
 }
 
-ul.filter-content a:focus {
+.filter-content:focus {
 	color: #000000;
 }
 
-ul.filter-content a:active {
+.filter-content:active {
 	color: #000000;
 }
 
-ul.filter-content a img:hover {
+.filter-content:hover {
 	color: #a6a6a6;
 }
 
-ul.grid-content input:hover {
+.grid-content:hover {
 	color: #4d4d4d;
 	border-color: #4d4d4d;
 }
 
-ul.grid-content input:disabled {
+.grid-content:disabled {
 	color: #ededed;
 	border-color: #ededed;
 }
 
-ul.peculiar-properties input:hover {
+.peculiar-properties:hover {
 	color: #4d4d4d;
 	border-color: #4d4d4d;
 }
 
-ul.peculiar-properties input:disabled {
+.peculiar-properties:disabled {
 	color: #ededed;
 	border-color: #ededed;
 }
 
-ul.partners-list img:hover {
+.partners-list:hover {
 	color: #0f0f0f;
 }
 
-b.sliders {
+.sliders {
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 700;
@@ -402,7 +398,7 @@ b.sliders {
 	padding: 0;
 }
 
-b.order, b.description, b.lets-be-friends {
+.order, .description, .lets-be-friends {
 display: block; 
 margin-bottom: 22px; 
 padding-top: 34px; 
