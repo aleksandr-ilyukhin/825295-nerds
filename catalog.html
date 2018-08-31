@@ -4,30 +4,34 @@
     <meta charset="utf-8">
     <title>HTML Academy:  Нёрдс</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<link href="normalize.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
 	  <nav class="main-navigation">
-	    <a class="main-header-logo" href="index.html"><img src="img/nerds-logo.svg"><svg class="logo-svg"></svg></a>
-	    <ul "navigation-content">
+	    <a class="main-header-logo" href="index.html"><img src="img/nerds-logo.svg" alt="nerds-logo"><svg class="logo-svg"></svg></a>
+	    <ul class="navigation-content">
 		  <li><a href="studio.html">Студия</a></li>
 		  <li><a href="customers.html">Клиенты</a></li>
 		  <li><a href="catalog.html">Магазин</a></li>
 		  <li><a href="contacts.html">Контакты</a></li>
-		  <li><a href="basket.html"><img src="img/cart-icon.svg"> Корзина</a></li>
+		  <li><a href="basket.html"><img src="img/cart-icon.svg" alt="cart">Корзина</a></li>
 		</ul>
 		<h1 class="visually-hidden">МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</h1>
+		<b class="store-ready-made-templates">МАГАЗИН ГОТОВЫХ ШАБЛОНОВ</b>
 	  </nav>
 	  </header>
 	  <main>
 	    <section class="filter"> 
 		  <h3 class="visually-hidden">СОРТИРОВАТЬ:</h3>
+		  <b class="filter">СОРТИРОВАТЬ</b>
 		     <ul class="filter-content">
 			  <li><a href="#">ПО ЦЕНЕ</a></li>
 			  <li><a href="#">ПО ТИПУ</a></li>
 			  <li><a href="#">ПО НАЗВАНИЮ</a></li>
-			  <li><a type="button" class="a-button"><img src="img/icon-down-dir.svg"></li>
-			  <li><a type="button" class="a-button"><img src="img/icon-up-dir.svg"></li>
+			  <li><a class="a-button"><img src="img/icon-down-dir.svg" alt="icon-down-dir"></a></li>
+			  <li><a class="a-button"><img src="img/icon-up-dir.svg" alt="icon-up-dir"></a></li>
 			</ul>
 			<ul class="slides-content">
 			  <li><a href="#"><img src="img/img-sedona_pic.png" alt="SEDONA"></a><div><h3>SEDONA</h3><p>Информационный сайт<br>для туристов</p><a class="red-button" href="#">9900 РУБ</a></div>
@@ -35,22 +39,23 @@
 			  <li><a href="#"><img src="img/img-barbershop_pic.png" alt="Barbershop"></a><div><h3>BARBERSHOP</h3><p>Сайт салона красоты.<br>Для мужчин, да.</p><a class="red-button" href="#">9900 РУБ</a></div>
 			  <li><a href="#"><img src="img/img-mishka_pic.png" alt="MiSHKA"></a><div><h3>MISHKA</h3><p>Интернет-магазин<br>вязаных игрушек</p><a class="red-button" href="#">9900 РУБ</a></div>
 			  <li><a href="#"><img src="img/img-aplus_pic.png" alt="A+"></a><div><h3>A PLUS</h3><p>Лендинг курсов повышения<br>квалификации</p><a class="red-button" href="#">9900 РУБ</a></div>
-			  <li><a href="#"><img src="img/img-kvast_pic.png" alt="КВАСТ"></a><h3>КВАСТ</h3><p>Промо-сайт производителя<br>крафтового кваса</p><a class="red-button" href="#">9900 РУБ</a></div>
+			  <li><a href="#"><img src="img/img-kvast_pic.png" alt="КВАСТ"></a><div><h3>КВАСТ</h3><p>Промо-сайт производителя<br>крафтового кваса</p><a class="red-button" href="#">9900 РУБ</a></div>
 			</ul>
 		    <ul class="buttons-list">
-			  <li><input type="button" href="#" class="page-number-digit" value="1"></a></li>
-			  <li><input type="button" href="#" class="page-number-digit" value="2"></a></li>
-			  <li><input type="button" href="#" class="page-number-digit" value="3"></a></li>
-			  <li><input type="button" href="#" class="page-number-digit" value="СЛЕДУЮЩАЯ"></a></li>
+			  <li><input type="button"  class="page-number-digit" value="1"></li>
+			  <li><input type="button"  class="page-number-digit" value="2"></li>
+			  <li><input type="button"  class="page-number-digit" value="3"></li>
+			  <li><input type="button"  class="page-number-digit" value="СЛЕДУЮЩАЯ"></li>
 			</ul>
 		</section>
 		<section class="count">
 		<form method="post" action="https://echo.htmlacademy.ru">
 		<fieldset>
+		<h2 class="visually-hidden">СТОИМОСТЬ</h2>
 		  <ul class="count-content">
 		    <li>
 			  <label for="count">
-			  <h3 class="visually-hidden">СТОИМОСТЬ:</h3>
+			  <b class="count">СТОИМОСТЬ:</b>
 			  </label>
 			  <input type="range" min="0" max="15000" step="1" id="count" name="count">
 			</li>
@@ -72,8 +77,13 @@
 			</li>
 		  </ul>
 		  </fieldset>
+		  </form>
+		  </section>
+		  <section class="grid">
+		  <form method="post" action="https://echo.htmlacademy.ru">
 		  <fieldset>
-		  <h3 class="visually-hidden">СЕТКА:</h3>
+		  <h2 class="visually-hidden">СЕТКА</h2>
+		  <b class="grid">СЕТКА:</b>
 		    <ul class="grid-content">
 		      <li>
 			    <input type="radio" id="adaptive-radio" name="adaptive" checked>
@@ -95,8 +105,13 @@
 			  </li>
 			</ul>
 			</fieldset>
+			</form>
+			</section>
+			<section class="singularity">
+			<form method="post" action="https://echo.htmlacademy.ru">
 			<fieldset>
 		  <h3 class="visually-hidden">ОСОБЕННОСТИ</h3>
+		  <b class="singularity">ОСОБЕННОСТИ</b>
 		    <ul class="peculiar-properties">
 			  <li>
 			    <input type="checkbox" id="slider-checkbox" name="slider" checked>
@@ -105,8 +120,8 @@
 				</label>
 			  </li>
 			  <li>
-			    <input type="checkbox" id="an array of benefits-checkbox" name="an array of benefits">
-			    <label for="an array of benefits-checkbox">
+			    <input type="checkbox" id="an-array-of-benefits-checkbox" name="an array of benefits">
+			    <label for="an-array-of-benefits-checkbox">
 				  Блок преимуществ
 				</label>
 			  </li>
@@ -123,14 +138,14 @@
 				</label>
 			  </li>
 			  <li>
-			  <input type="checkbox" id="an array of benefits-checkbox" name="an array of benefits">
-			  <label for="basket-checkbox">
+			  <input type="checkbox" id="cart-checkbox" name="cart">
+			  <label for="cart-checkbox">
 			    Корзина
 			  </label>
 			  </li>
 			  </ul>
 		  <label for="show">
-		  <input type="button" href="#" id="show" class="show" value="ПОКАЗАТЬ">
+		  <input type="button" id="show" class="show" value="ПОКАЗАТЬ">
 		  </label>
 		  </fieldset>
 		  </form>
@@ -138,11 +153,12 @@
 		  </main>
 		<footer>
 	    <section class="contacts">
-		<img src="img/contacts.png">
+		<img src="img/contacts.png" alt="contacts">
 		  <h3 class="visually-hidden">NERDS DESIGN STUDIO</h3>
+		  <b class="nerds-design-studio">NERDS DESIGN STUDIO</b>
 		    <p>191186, Санкт-Петербург,<br>ул.Б.Конюшенная,д.19/8</p>
 			<p>тел. +7(812)275-75-75</p>
-			<a type="button" href="#" class="red-button">НАПИШИТЕ НАМ</a>
+			<a href="#" class="red-button">НАПИШИТЕ НАМ</a>
 			<form method="post" action="https://echo.htmlacademy.ru">
 			<fieldset>
 			  <ul class="login-field">
@@ -150,7 +166,7 @@
 			     <label for="your-name"> 
 			     Ваше имя: 
 			     </label>
-			     <input type="login" name="name" id="your-name" placeholder="Представьтесь, пожалуйста">
+			     <input type="text" name="name" id="your-name" placeholder="Представьтесь, пожалуйста">
 			   </li>
 			  </ul>
 			   <ul class="email-field">
@@ -178,13 +194,15 @@
 			  </ul>
 			  </fieldset>
 			  </form>
+			  </section>
 	    <section class="social-networks">
+		<h2 class="lets-be-friends">Давайте дружить, это выгодно!</h2>
 		  <b class="lets-be-friends">Давайте дружить, это выгодно!</b>
 		    <p>Скидка 10% для друзей из социальных сетей.</p>
 			  <ul class="social-networks-content">
-			    <li><a type="button" class="social-button" href="vk.com"><img src="img/vk-icon.svg"></a></li>
-				<li><a type="button" class="social-button" href="instagram.com"><img src="img/insta-icon.svg"></a></li>
-				<li><a type="button" class="social-button" href="facebook.com"><img src="img/fb-icon.svg"></a></li>
+			    <li><a class="social-button" href="vk.com"><img src="img/vk-icon.svg" alt="vk.com"></a></li>
+				<li><a class="social-button" href="instagram.com"><img src="img/insta-icon.svg" alt="instagram.com"></a></li>
+				<li><a class="social-button" href="facebook.com"><img src="img/fb-icon.svg" alt="facebook.com"></a></li>
 			  </ul>
 		</section>
 	  </footer>	  
