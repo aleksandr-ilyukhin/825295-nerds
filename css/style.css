@@ -2,7 +2,7 @@ body {
 margin: 0; 
 padding: 0; 
 font-family: Roboto,Arial,sans-serif; 
-font-size: 16px; 
+font-size: 15px; 
 line-height: 24px; 
 font-weight: 400; 
 color: #283136; 
@@ -413,6 +413,10 @@ padding-top: 34px;
 font-size: 24px; 
 line-height: 30px; 
 color: #000; 
+}
+
+.description-s {
+	font-size: 13px;
 }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
