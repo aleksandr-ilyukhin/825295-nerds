@@ -129,22 +129,25 @@ input[type="login"] {
 .slider-1 {
 	background-image: url("../img/slider-1.png");
 	background-repeat: no-repeat;
-	background-size: 500px min;
+	background-size: 500px;
 	background-color: #eeeeee;
+	min-height: 420px;
 }
 
 .slider-2 {
 	background-image: url("../img/slider-2.png");
 	background-repeat: no-repeat;
-	background-size: 500px min;
+	background-size: 500px;
 	background-color: #eeeeee;
+	min-height: 420px;
 }
 
 .slider-3 {
 	background-image: url("../img/slider-3.png");
 	background-repeat: no-repeat;
-	background-size: 500px min;
+	background-size: 500px;
 	background-color: #eeeeee;
+	min-height: 420px;
 }
 
 .social-button {
