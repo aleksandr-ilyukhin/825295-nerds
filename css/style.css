@@ -129,21 +129,21 @@ input[type="login"] {
 .slider-1 {
 	background-image: url("../img/slider-1.png");
 	background-repeat: no-repeat;
-	background-size: 500px 500px;
+	background-size: 500px min;
 	background-color: #eeeeee;
 }
 
 .slider-2 {
 	background-image: url("../img/slider-2.png");
 	background-repeat: no-repeat;
-	background-size: 500px 500px;
+	background-size: 500px min;
 	background-color: #eeeeee;
 }
 
 .slider-3 {
 	background-image: url("../img/slider-3.png");
 	background-repeat: no-repeat;
-	background-size: 500px 500px;
+	background-size: 500px min;
 	background-color: #eeeeee;
 }
 
