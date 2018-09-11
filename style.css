@@ -2,3 +2,7 @@ body {
 	font-family: "Roboto" sans-serif;
 }
 
+ul.partners-list {
+	list-style: none;
+}
+
