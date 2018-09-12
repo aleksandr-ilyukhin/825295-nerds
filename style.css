@@ -1,19 +1,40 @@
 body {
-	font-family: "Roboto" sans-serif;
+	font-family: "Roboto", sans-serif;
 }
 
 .advantages-icon::before {
-    background-image: url("/img/advantages.jpg");
-}
+    background-image: url("img/advantages.jpg");
+    content: "";
+}  
 
 
 .learn-more {
 	background-color: #fb565a;
 	border-color: #fb565a;
+	color: #ffffff;
 }
 
-.navigation-l {
+.navigation-list {
 	font-size: 16px;
 	font-weight: medium;
 	color: #000000;
+	line-height: 30px;
+}
+
+.red-button {
+    background-color: #fb565a;
+	border: 2px solid #fb565a;
+	color: #ffffff;
+}
+
+.logo:hover {
+    color: #303030;
+}
+
+.navigation-l:hover {
+    color: #fb565a;
+}
+
+.navigation-l:active {
+	color: #d8d8d8;
 }
