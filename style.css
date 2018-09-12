@@ -2,7 +2,16 @@ body {
 	font-family: "Roboto" sans-serif;
 }
 
-ul.partners-list {
-	list-style: none;
+.advantages-icon::before {
+    background-image: url("img/advantages.jpg");
 }
 
+
+.learn-more {
+	background-color: #fb565a;
+	border-color: #fb565a;
+}
+
+ul li {
+	list-style-type: none;
+}
