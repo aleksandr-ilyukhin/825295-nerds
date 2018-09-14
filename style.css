@@ -3,7 +3,6 @@ body {
 }
 
 .advantages-icon::before {
-    background-image: url("img/advantages.jpg");
     content: "";
 }  
 
