@@ -13,7 +13,154 @@ body {
 }
 
 .navigation-list {
+	list-style-type: none;
+}
+
+.navigation-l {
 	font-size: 16px;
 	font-weight: medium;
 	color: #000000;
+	line-height: 30px;
+}
+
+.slider-paragraph {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.slider-header {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: bold;
+}
+
+.advertising-header {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.advertising-paragraph {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.services-header {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+.services-paragraph {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.services-header-2 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.our-services-list {
+	list-style-type: none;
+}
+
+.slider-1,
+.slider-2,
+.slider-3 {
+	list-style-type: none;
+}
+
+.partners-list {
+	list-style-type: none;
+}
+
+.services-l {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.since-2004 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.procent {
+	font-size: 45px;
+	line-height: 10,06px;
+}
+
+.advantages-l {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.contacts-l {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.lets-be-friends {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.lets-be-friends-paragraph {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.shop {
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.count,
+.grid-list,
+.advantages-list {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.grid-content,
+.advantage-content {
+	list-style-type: none;
+}
+
+.show {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.sort {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+.filter,
+.sorting-content,
+.catalog-content,
+.pagination {
+	list-style-type: none;
+}
+
+.filter-l {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.catalog-l {
+	font-size: 16px;
+	font-weight: 18px;
+}
+
+.catalog-header {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
 }
