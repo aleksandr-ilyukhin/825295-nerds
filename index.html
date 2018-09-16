@@ -8,101 +8,104 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="#"><img src="img/nerds-logo.svg" class="logo" alt="Лого Нердс"></a>
+      <a><img src="img/nerds-logo.svg" class="logo" alt="Лого Нердс"></a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li><a href="#" class="navigation-l">CТУДИЯ</a></li>
-          <li><a href="#" class="navigation-l">КЛИЕНТЫ</a></li>
-          <li><a href="#" class="navigation-l">МАГАЗИН</a></li>
-          <li><a href="#" class="navigation-l">КОНТАКТЫ</a></li>
+          <li><a href="catalog.html" class="navigation-link navigation-link-active">Cтудия</a></li>
+          <li><a href="catalog.html" class="navigation-link navigation-link-active">Клиенты</a></li>
+          <li><a class="navigation-link navigation-link-shop-active">Магазин</a></li>
+          <li><a href="catalog.html" class="navigation-link navigation-link-active">Контакты</a></li>
         </ul>
       </nav>
-      <a href="#" class="navigation-l">КОРЗИНА</a>
+      <div class="user-block">
+        <a href="catalog.html" class="navigation-link navigation-link-active">Корзина</a>
+      </div>
     </header>
     <main>
-      <section class="sliders-list">
-        <ul class="slider-1">
-          <li><img src="img/slider-1.jpg" alt="Слайдер 1"></li>
-          <li><b class="slider-header">Долго, дорого,<br>скрупулезно.</b></li>
-          <li>
+      <section class="promo-slider">
+        <ul class="slider-list">
+          <li class="slider-item">
+            <img src="img/slider-1.jpg" alt="Слайдер 1">
+            <b class="slider-header">Долго, дорого,<br>скрупулезно.</b>
             <p class="slider-paragraph">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+            <a href="#" class="btn btn-red slider-btn">Узнать больше</a>
           </li>
-          <li><button class="learn-more"><a href="#">УЗНАТЬ БОЛЬШЕ</a></button></li>
-        </ul>
-        <ul class="slider-2">
-          <li><img src="img/slider-2.jpg" alt="Слайдер 2"></li>
-          <li><b class="slider-header">Любим математику как никто другой</b></li>
-          <li>
-            <p slider-paragraph>Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+          <li class="slider-item">
+            <img src="img/slider-2.jpg" alt="Слайдер 2">
+            <b class="slider-header">Любим математику как никто другой</b>
+            <p class="slider-paragraph">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+            <a href="#" class="btn btn-green slider-btn">Узнать больше</a>
           </li>
-          <li><button class="learn-more"><a href="#">УЗНАТЬ БОЛЬШЕ</a></button></li>
-        </ul>
-        <ul class="slider-3">
-          <li><img src="img/slider-3.jpg" alt="Слайдер 3"></li>
-          <li><b class="slider-header">Только ночь, только хардкор</b></li>
-          <li>
-            <p slider-paragraph>Работать днем как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+          <li class="slider-item">
+            <img src="img/slider-3.jpg" alt="Слайдер 3"></li>
+            <b class="slider-header">Только ночь, только хардкор</b>
+            <p class="slider-paragraph">Работать днем как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+            <a href="#" class="btn btn-yellow slider-btn">Узнать больше</a>
           </li>
-          <li><button class="learn-more"><a href="#">УЗНАТЬ БОЛЬШЕ</a></button></li>
         </ul>
       </section>
-      <section class="web-sites">
-        <span class="advantages-icon">::before</span>
-        <h3 class="advertising-header">ВЕБ-САЙТЫ</h3>
-        <p class="advertising-paragraph">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-        <a href="#" class="red-button">ЗАКАЗАТЬ</a>
-      </section>
-      <section class="apps">
-        <h3 class="advertising-header">ПРИЛОЖЕНИЯ</h3>
-        <p class="advertising-paragraph">Покорите топ-10 приложений в AppStore и Google Play</p>
-        <a href="#">ЗАКАЗАТЬ</a>
-      </section>
-      <section class="presentations">
-        <h3 class="advertising-header">ПРЕЗЕНТАЦИИ</h3>
-        <p class="advertising-paragraph">Вы даже не подозреваете, насколько вы изумительны!</p>
-        <a href="#">ЗАКАЗАТЬ</a>
+      <section class="features">
+        <ul class="features-list">
+          <li class="features-item">
+            <h3 class="advertising-header">Веб-сайты</h3>
+            <p class="advertising-paragraph">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a href="#" class="red-button">Заказать</a>
+          </li>
+          <li class="features-item"> 
+            <h3 class="advertising-header">Приложения</h3>
+            <p class="advertising-paragraph">Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a href="#">Заказать</a>
+          </li>
+          <li class="features-item">
+            <h3 class="advertising-header">Презентации</h3>
+            <p class="advertising-paragraph">Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a href="#">Заказать</a>
+          </li>
+        </ul>
       </section>
       <section class="description">
-        <b class="services-header">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
-        <p class="services-paragraph">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-        <b class="services-header-2">ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</b>
-        <ul class="our-services-list">
-          <li class="services-l">Веб-сайтов любой сложности</li>
-          <li class="services-l">Мобильных приложений для iOS и Android</li>
-          <li class="services-l">Слайдшоу и видео для корпоративных презентаций</li>
-        </ul>
+        <section class="service">
+          <b class="services-header">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+          <p class="services-paragraph">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <b class="services-header-2">Выполняем заказы на разработку:</b>
+          <ul class="our-services-list">
+            <li class="services-link">Веб-сайтов любой сложности</li>
+            <li class="services-link">Мобильных приложений для iOS и Android</li>
+            <li class="services-link">Слайдшоу и видео для корпоративных презентаций</li>
+          </ul>
+        </section>
+        <section class="advantages">
+          <table class="about-company-statistics">
+            <caption class="since-2004">С 2004 года любим точность во всем!:</caption>
+            <tr>
+              <th class="procent">146%</th>
+              <th class="procent">100%</th>
+              <th class="procent">50%</th>
+            </tr>
+            <tr>
+              <td class="advantages-link">Уровень самоотдачи</td>
+              <td class="advantages-link">Соблюдение сроков</td>
+              <td class="advantages-link">Минимальная предоплата</td>
+            </tr>
+          </table>
+        </section>
       </section>
-      <section class="advantages">
-        <table class="about-company-statistics">
-          <caption class="since-2004">С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</caption>
-          <tr>
-            <th class="procent">146%</th>
-            <th class="procent">100%</th>
-            <th class="procent">50%</th>
-          </tr>
-          <tr>
-            <td class="advantages-l">Уровень самоотдачи</td>
-            <td class="advantages-l">Соблюдение сроков</td>
-            <td class="advantages-l">Минимальная предоплата</td>
-          </tr>
-        </table>
-      </section>
-      <div class="partners">
+      <section class="partners">
         <ul class="partners-list">
           <li><a href="#"><img src="img/htmlacademy.jpg" alt="htmlacademy"></a></li>
           <li><a href="#"><img src="img/barbershop.jpg" alt="barbershop"></a></li>
           <li><a href="#"><img src="img/pink.jpg" alt="pink"></a></li>
           <li><a href="#"><img src="img/mishka.jpg" alt="mishka"></a></li>
         </ul>
-      </div>
+      </section>
     </main>
-    <footer>
+    <footer class="page-footer">
       <section class="contacts">
         <img src="img/contacts.jpg" alt="">
         <h3></h3>
-        <address class="contacts-l">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-        <a href="tel:+7812275757" contacts-l></a>
-        <a href="#" contacts-l>НАПИШИТЕ НАМ</a>
+        <address class="contacts-link">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        <a href="tel:+7812275757" class="contacts-link"></a>
+        <a href="#" class="contacts-link">Напишите нам!</a>
       </section>
       <section class="social">
         <b class="lets-be-friends">Давайте дружить, это выгодно!</b>

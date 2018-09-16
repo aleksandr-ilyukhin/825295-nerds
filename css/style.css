@@ -16,7 +16,7 @@ body {
 	list-style-type: none;
 }
 
-.navigation-l {
+.navigation-link {
 	font-size: 16px;
 	font-weight: medium;
 	color: #000000;
@@ -76,7 +76,7 @@ body {
 	list-style-type: none;
 }
 
-.services-l {
+.services-link {
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -92,12 +92,12 @@ body {
 	line-height: 10,06px;
 }
 
-.advantages-l {
+.advantages-link {
 	font-size: 16px;
 	line-height: 18px;
 }
 
-.contacts-l {
+.contacts-link {
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -149,12 +149,12 @@ body {
 	list-style-type: none;
 }
 
-.filter-l {
+.filter-link {
 	font-size: 14px;
 	line-height: 18px;
 }
 
-.catalog-l {
+.catalog-link {
 	font-size: 16px;
 	font-weight: 18px;
 }
