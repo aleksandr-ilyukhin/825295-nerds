@@ -11,19 +11,21 @@
       <a href="index.html"><img src="img/nerds-logo.svg" class="logo" alt="Лого Нердс"></a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li><a href="#" class="navigation-link navigation-link-active">Cтудия</a></li>
-          <li><a href="#" class="navigation-link navigation-link-active">Клиенты</a></li>
+          <li><a href="#" class="navigation-link">Cтудия</a></li>
+          <li><a href="#" class="navigation-link">Клиенты</a></li>
           <li><a class="navigation-link navigation-link-shop-active">Магазин</a></li>
-          <li><a href="#" class="navigation-link navigation-link-active">Контакты</a></li>
+          <li><a href="#" class="navigation-link">Контакты</a></li>
         </ul>
       </nav>
       <div class="user-block">
-        <a href="#" class="navigation-link navigation-link-active">Корзина</a>
+        <a href="#" class="navigation-link">Корзина</a>
       </div>
-      <h1 class="shop">Магазин готовых шаблонов</h1>
     </header>
     <main>
-      <section class="count-filter">
+      <section class="intro">
+        <h1 class="intro-title">Магазин готовых шаблонов</h1>
+      </section>
+      <section class="catalog-filter">
         <form method="post" action="https://echo.htmlacademy.ru">
           <fieldset class="filter-content">
             <h3 class="count">Стоимость:</h3>
@@ -70,7 +72,7 @@
                 <label for="gallery">Галерея</label>
               </li>
               <li>
-                <input type="checkbox" id="cart" name="features">
+                <input type="checkbox" id="cart" name="features" value="cart">
                 <label for="cart">Корзина</label>
               </li>
             </ul>
@@ -81,13 +83,13 @@
       <section class="catalog">
         <h3 class="sort">Сортировать:</h3>
         <div class="catalog-sort">
-          <ul class="filter">
-            <li class="filter-l">По цене</li>
-            <li class="filter-l">По типу</li>
-            <li class="filter-l">По названию</li>
+          <ul class="sort-by-category">
+            <li class="sort-icon"><a href="#">По цене</a></li>
+            <li class="sort-icon"><a href="#">По типу</a></li>
+            <li class="sort-icon"><a href="#">По названию</a></li>
           </ul>
           <ul class="sort-by-priority">
-            <li><a href="#"  aria-label="Сортировка по убыванию"><img src="img/icon-down-dir.svg" alt="Стрелочка вниз"></a></li>
+            <li><a href="#" aria-label="Сортировка по убыванию"><img src="img/icon-down-dir.svg" alt="Стрелочка вниз"></a></li>
             <li><a href="#" aria-label="Сортировка по возрастанию"><img src="img/icon-up-dir.svg" alt="Стрелочка вверх"></a></li>
           </ul>
         </div>
