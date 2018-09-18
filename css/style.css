@@ -66,13 +66,23 @@ body {
 	list-style-type: none;
 }
 
-.slider-1,
-.slider-2,
-.slider-3 {
+.slider-item {
 	list-style-type: none;
 }
 
 .partners-list {
+	list-style-type: none;
+}
+
+.sort-by-priority {
+	list-style-type: none;
+}
+
+.sort-by-category {
+	list-style-type: none;
+}
+
+.features-content {
 	list-style-type: none;
 }
 
@@ -163,5 +173,9 @@ body {
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: bold;
+}
+
+.slider-phones::before {
+	background-image: url(img/slider-phones.jpg);
 }
 
