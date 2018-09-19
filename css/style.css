@@ -179,3 +179,6 @@ body {
 	background-image: url(img/slider-phones.jpg);
 }
 
+.partner-item:hover {
+	color: #000000;
+}
