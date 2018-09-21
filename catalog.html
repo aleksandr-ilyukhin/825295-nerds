@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a href="index.html"><img src="img/icon-nerds-logo.svg" class="logo" alt="Лого Нердс" width="160px" height="67px"></a>
+      <a href="index.html"><img src="img/icon-nerds-logo.svg" class="logo" alt="Лого Нердс" width="160" height="67"></a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li><a href="#" class="navigation-link">Cтудия</a></li>
@@ -84,9 +84,9 @@
         <h3 class="sort">Сортировать:</h3>
         <div class="catalog-sort">
           <ul class="sort-by-category">
-            <li class="sort-icon"><a href="#">По цене</a></li>
-            <li class="sort-icon"><a href="#">По типу</a></li>
-            <li class="sort-icon"><a href="#">По названию</a></li>
+            <li><a href="#">По цене</a></li>
+            <li><a href="#">По типу</a></li>
+            <li><a href="#">По названию</a></li>
           </ul>
           <ul class="sort-by-priority">
             <li><a href="#" aria-label="Сортировка по убыванию"><img src="img/icon-down-dir.svg" alt="Стрелочка вниз"></a></li>
@@ -97,37 +97,37 @@
       <section class="catalog">
         <ul class="catalog-content">
           <li>
-            <img src="img/sedona-slider.jpg" alt="Sedona" width="360px" height="616px">
+            <img src="img/sedona-slider.jpg" alt="Sedona" width="360" height="616">
             <a href="#"><h3 class="catalog-header">Sedona</h3></a>
             <p class="catalog-l">Информационный сайт для туристов</p>
             <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/pink-slider.jpg" alt="Pink" width="360px" height="616px">
+            <img src="img/pink-slider.jpg" alt="Pink" width="360" height="616">
             <a href="#"><h3 class="catalog-header">Pink app</h3></a>
             <p class="catalog-l">Продуктовый лендинг приложения для iOS и Android</p>
             <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/barbershop-slider.jpg" alt="Barbershop" width="360px" height="616px">
+            <img src="img/barbershop-slider.jpg" alt="Barbershop" width="360" height="616">
             <a href="#"><h3 class="catalog-header">Barbershop</h3></a>
             <p class="catalog-l">Сайт салона красоты. Для мужчин, да.</p>
             <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/mishka-slider.jpg" alt="Mishka" width="360px" height="616px">
+            <img src="img/mishka-slider.jpg" alt="Mishka" width="360" height="616">
             <a href="#"><h3 class="catalog-header">Mishka</h3></a>
             <p class="catalog-l">Интернет-магазин вязаных игрушек</p>
             <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/aplus-slider.jpg" alt="A Plus" width="360px" height="616px">
+            <img src="img/aplus-slider.jpg" alt="A Plus" width="360" height="616">
             <a href="#"><h3 class="catalog-header">A plus</h3></a>
             <p class="catalog-l">Лендинг курсов повышения квалификации</p>
             <a href="#">9 900 руб.</a>
           </li>
           <li>
-            <img src="img/kvast-slider.jpg" alt="KBACT" width="360px" height="616px">
+            <img src="img/kvast-slider.jpg" alt="KBACT" width="360" height="616">
             <a href="#"><h3 class="catalog-header">Kваст</h3></a>
             <p class="catalog-l">Промо-сайт производителя крафтового кваса</p>
             <a href="#">9 900 руб.</a>
@@ -148,13 +148,33 @@
         <address class="contacts-l">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         <a href="tel:+7812275757" class="contacts-l"></a>
         <a href="#" class="contacts-l">Напишите нам</a>
+        <form method="post" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <h2>Напишите нам</h2>
+            <ul class="form-list">
+              <li>
+                <label for="name">Ваше имя:</label>
+                <input type="text" name="name" placeholder="Имя Фамилия" id="name">
+              </li>
+              <li>
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com">
+              </li>
+              <li>
+                <label for="letter">Текст письма:</label>
+                <textarea name="comment" id="letter" placeholder="В свободной форме"></textarea>
+              </li>
+            </ul>
+            <button type="submit" value="send">Отправить</button>
+          </fieldset>
+        </form>
       </section>
       <section class="social">
         <b class="lets-be-friends">Давайте дружить, это выгодно!</b>
         <p class="lets-be-friends-paragraph">Скидка 10% для друзей из социальных сетей.</p>
-        <a href="#"><img src="img/icon-vk.svg" alt="vk" width="27px" height="15px"></a>
-        <a href="#"><img src="img/icon-facebook.svg" alt="facebook" width="12px" height="22px"></a>
-        <a href="#"><img src="img/icon-instagram.svg" alt="instagram" width="21px" height="21px"></a>
+        <a href="#"><img src="img/icon-vk.svg" alt="vk" width="27" height="15"></a>
+        <a href="#"><img src="img/icon-facebook.svg" alt="facebook" width="12" height="22"></a>
+        <a href="#"><img src="img/icon-instagram.svg" alt="instagram" width="21" height="21"></a>
       </section>
     </footer>
   </body>

@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="page-header">
-      <a><img src="img/icon-nerds-logo.svg" class="logo" alt="Лого Нердс" width="160px" height="67px"></a>
+      <a><img src="img/icon-nerds-logo.svg" class="logo" alt="Лого Нердс" width="160" height="67"></a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li><a href="catalog.html" class="navigation-link">Cтудия</a></li>
@@ -25,7 +25,7 @@
       <section class="promo-slider">
         <ul class="slider-list">
           <li class="slider-item">
-            <span class="slider-phones">::before</span>
+            <span class="slider-phones"></span>
             <b class="slider-header">Долго, дорого,<br>скрупулезно.</b>
             <p class="slider-paragraph">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
             <a href="#" class="btn btn-red slider-btn">Узнать больше</a>
@@ -92,10 +92,10 @@
       </section>
       <section class="partners">
         <ul class="partners-list">
-          <li><a href="#"><img src="img/htmlacademy-partner.jpg" alt="htmlacademy"  class="partner-item" width="200px" height="67px"></a></li>
-          <li><a href="#"><img src="img/barbershop-partner.jpg" alt="barbershop" class="partner-item" width="210px" height="92px"></a></li>
-          <li><a href="#"><img src="img/pink-partner.jpg" alt="pink" class="partner-item" width="185px" height="52px"></a></li>
-          <li><a href="#"><img src="img/mishka-partner.jpg" alt="mishka" class="partner-item" width="175px" height="85px"></a></li>
+          <li><a href="#"><img src="img/htmlacademy-partner.jpg" alt="htmlacademy"  class="partner-item" width="200" height="67"></a></li>
+          <li><a href="#"><img src="img/barbershop-partner.jpg" alt="barbershop" class="partner-item" width="210" height="92"></a></li>
+          <li><a href="#"><img src="img/pink-partner.jpg" alt="pink" class="partner-item" width="185" height="52"></a></li>
+          <li><a href="#"><img src="img/mishka-partner.jpg" alt="mishka" class="partner-item" width="175" height="85"></a></li>
         </ul>
       </section>
     </main>
@@ -106,13 +106,33 @@
         <address class="contacts-link">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         <a href="tel:+7812275757" class="contacts-link"></a>
         <a href="#" class="contacts-link">Напишите нам!</a>
+        <form method="post" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <h2>Напишите нам</h2>
+            <ul class="form-list">
+              <li>
+                <label for="name">Ваше имя:</label>
+                <input type="text" name="name" placeholder="Имя Фамилия" id="name">
+              </li>
+              <li>
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com">
+              </li>
+              <li>
+                <label for="letter">Текст письма:</label>
+                <textarea name="comment" id="letter" placeholder="В свободной форме"></textarea>
+              </li>
+            </ul>
+            <button type="submit" value="send">Отправить</button>
+          </fieldset>
+        </form>
       </section>
       <section class="social">
         <b class="lets-be-friends">Давайте дружить, это выгодно!</b>
         <p class="lets-be-friends-paragraph">Скидка 10% для друзей из социальных сетей.</p>
-        <a href="#"><img src="img/icon-vk.svg" alt="vk" width="27px" height="15px"></a>
-        <a href="#"><img src="img/icon-facebook-icon.svg" alt="facebook" width="12px" height="22px"></a>
-        <a href="#"><img src="img/icon-instagram-icon.svg" alt="instagram" width="21px" height="21px"></a>
+        <a href="#"><img src="img/icon-vk.svg" alt="vk" width="27" height="15"></a>
+        <a href="#"><img src="img/icon-facebook-icon.svg" alt="facebook" width="12" height="22"></a>
+        <a href="#"><img src="img/icon-instagram-icon.svg" alt="instagram" width="21" height="21"></a>
       </section>
     </footer>
   </body>
