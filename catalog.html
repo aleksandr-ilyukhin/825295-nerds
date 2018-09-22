@@ -29,7 +29,7 @@
         <form method="post" action="https://echo.htmlacademy.ru">
           <fieldset class="filter-content">
             <h3 class="count">Стоимость:</h3>
-            <input type="range" id="count-field" name="count" value="count">
+            <input type="range" id="count-field" name="count" value="0">
             <label for="from-zero">От</label>
             <input type="text" value="0" id="from-zero" disabled>
             <label for="to-fifteen-thousand">До</label>
@@ -143,22 +143,23 @@
     </main>
     <footer class="page-footer">
       <section class="contacts">
-        <img src="img/contacts.jpg" alt="">
-        <h3></h3>
+        <img src="img/contacts.jpg" alt="Месторасположение магазина по адресу 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 на карте">
+        <h3>Nёrds design studio</h3>
         <address class="contacts-l">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         <a href="tel:+7812275757" class="contacts-l"></a>
         <a href="#" class="contacts-l">Напишите нам</a>
       </section>
       <section class="social">
+        <h2 class="visually-hidden">Социальные сети</h2>
         <b class="lets-be-friends">Давайте дружить, это выгодно!</b>
         <p class="lets-be-friends-paragraph">Скидка 10% для друзей из социальных сетей.</p>
-        <a href="#"><img src="img/icon-vk.svg" alt="vk" width="27" height="15"></a>
-        <a href="#"><img src="img/icon-facebook.svg" alt="facebook" width="12" height="22"></a>
-        <a href="#"><img src="img/icon-instagram.svg" alt="instagram" width="21" height="21"></a>
+        <a href="#" aria-label="Ссылка на Вконтакте"><img src="img/icon-vk.svg" alt="vk" width="27" height="15"></a>
+        <a href="#" aria-label="Ссылка на Фейсбук"><img src="img/icon-facebook.svg" alt="facebook" width="12" height="22"></a>
+        <a href="#" aria-label="Ссылка на Инстаграм"><img src="img/icon-instagram.svg" alt="instagram" width="21" height="21"></a>
       </section>
     </footer>
     <section class="modal-writeus">
-      <form method="post" action="https://echo.htmlacademy.ru">
+      <form method="get" action="https://echo.htmlacademy.ru">
         <fieldset>
           <h2>Напишите нам</h2>
           <ul class="form-list">
