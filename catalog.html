@@ -11,10 +11,10 @@
       <a href="index.html"><img src="img/icon-nerds-logo.svg" class="logo" alt="Лого Нердс" width="160" height="67"></a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li><a href="#" class="navigation-link">Cтудия</a></li>
-          <li><a href="#" class="navigation-link">Клиенты</a></li>
-          <li><a class="navigation-link navigation-link-shop-active">Магазин</a></li>
-          <li><a href="#" class="navigation-link">Контакты</a></li>
+          <li><a class="navigation-link" href="#">Cтудия</a></li>
+          <li><a class="navigation-link" href="#">Клиенты</a></li>
+          <li><a class="navigation-link" href="catalog.html">Магазин</a></li>
+          <li><a class="navigation-link" href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="user-block">
@@ -26,28 +26,28 @@
         <h1 class="intro-title">Магазин готовых шаблонов</h1>
       </section>
       <section class="catalog-filter">
-        <form method="post" action="https://echo.htmlacademy.ru">
+        <form method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="filter-content">
             <h3 class="count">Стоимость:</h3>
-            <input type="range" id="count-field" name="count" value="0">
+            <input id="count-field" type="range" name="count" value="0">
             <label for="from-zero">От</label>
-            <input type="text" value="0" id="from-zero" disabled>
+            <input id="from-zero"  type="text" value="0" disabled>
             <label for="to-fifteen-thousand">До</label>
-            <input type="text" value="15 000" id="to-fifteen-thousand" disabled>
+            <input id="to-fifteen-thousand" type="text" value="15 000" disabled>
           </fieldset>
           <fieldset class="grid">
             <h3 class="grid-list">Сетка:</h3>
             <ul class="grid-content">
               <li>
-                <input type="radio" id="adaptive" name="grid" value="adaptive" checked>
+                <input id="adaptive" type="radio" name="grid" value="adaptive" checked>
                 <label for="adaptive">Адаптивная</label>
               </li>
               <li>
-                <input type="radio" id="fixed" name="grid" value="fixed">
+                <input id="fixed" type="radio" name="grid" value="fixed">
                 <label for="fixed">Фиксированная</label>
               </li>
               <li>
-                <input type="radio" id="responsive" name="grid" value="responsive">
+                <input id="responsive" type="radio" name="grid" value="responsive">
                 <label for="responsive">Резиновая</label>
               </li>
             </ul>
@@ -56,23 +56,23 @@
             <h3 class="features-list">Особенности</h3>
             <ul class="features-content">
               <li>
-                <input type="checkbox" id="slider" name="features" value="slider" checked>
+                <input id="slider" type="checkbox" name="features" value="slider" checked>
                 <label for="slider">Слайдер</label>
               </li>
               <li>
-                <input type="checkbox" id="features-block" name="features" value="features-block">
+                <input id="features-block" type="checkbox" name="features" value="features-block">
                 <label for="features-block">Блок преимуществ</label>
               </li>
               <li>
-                <input type="checkbox" id="news" name="features" value="news" checked>
+                <input  id="news" type="checkbox" name="features" value="news" checked>
                 <label for="news">Новости</label>
               </li>
               <li>
-                <input type="checkbox" id="gallery" name="features" value="gallery">
+                <input id="gallery" type="checkbox" name="features" value="gallery">
                 <label for="gallery">Галерея</label>
               </li>
               <li>
-                <input type="checkbox" id="cart" name="features" value="cart">
+                <input id="cart" type="checkbox" name="features" value="cart">
                 <label for="cart">Корзина</label>
               </li>
             </ul>
@@ -145,9 +145,9 @@
       <section class="contacts">
         <img src="img/contacts.jpg" alt="Месторасположение магазина по адресу 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 на карте">
         <h3>Nёrds design studio</h3>
-        <address class="contacts-l">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-        <a href="tel:+7812275757" class="contacts-l"></a>
-        <a href="#" class="contacts-l">Напишите нам</a>
+        <address class="contacts-address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        <a class="contacts-phone" href="tel:+7812275757"></a>
+        <a class="btn btn-red contacts-btn" href="#">Напишите нам</a>
       </section>
       <section class="social">
         <h2 class="visually-hidden">Социальные сети</h2>
@@ -159,25 +159,18 @@
       </section>
     </footer>
     <section class="modal-writeus">
-      <form method="get" action="https://echo.htmlacademy.ru">
+      <form method="post" action="https://echo.htmlacademy.ru" class="modal-writeus-form form-writeus">
         <fieldset>
           <h2>Напишите нам</h2>
-          <ul class="form-list">
-            <li>
-              <label for="name">Ваше имя:</label>
-              <input type="text" name="name" placeholder="Имя Фамилия" id="name">
-            </li>
-            <li>
-              <label for="email">Ваш e-mail:</label>
-              <input type="email" name="email" id="email" placeholder="email@example.com">
-            </li>
-            <li>
-              <label for="letter">Текст письма:</label>
-              <textarea name="comment" id="letter" placeholder="В свободной форме"></textarea>
-            </li>
-          </ul>
-          <button type="submit" value="send">Отправить</button>
-        </fieldset>
+          <div class="form-writeus-group">
+            <label class="form-writeus-label" for="name">Ваше имя:</label>
+            <input class="form-writeus-input" id="name" type="text" name="name" placeholder="Имя Фамилия" >
+            <label class="form-writeus-label" for="email">Ваш e-mail:</label>
+            <input class="form-writeus-input" id="email" type="email" name="email"  placeholder="email@example.com">
+            <label class="form-writeus-label" for="letter">Текст письма:</label>
+            <textarea class="form-writeus-textarea" id="letter" name="comment" placeholder="В свободной форме"></textarea>
+            <button type="submit" class="btn btn-red modal-writeus-btn">Отправить</button>
+          </div>
       </form>
     </section>
   </body>

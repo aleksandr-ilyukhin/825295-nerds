@@ -11,14 +11,14 @@
       <a><img src="img/icon-nerds-logo.svg" class="logo" alt="Лого Нердс" width="160" height="67"></a>
       <nav class="navigation">
         <ul class="navigation-list">
-          <li><a href="#" class="navigation-link">Cтудия</a></li>
-          <li><a href="#" class="navigation-link">Клиенты</a></li>
-          <li><a href="catalog.html" class="navigation-link">Магазин</a></li>
-          <li><a href="#" class="navigation-link">Контакты</a></li>
+          <li><a class="navigation-link" href="#">Cтудия</a></li>
+          <li><a class="navigation-link" href="#">Клиенты</a></li>
+          <li><a class="navigation-link" href="catalog.html">Магазин</a></li>
+          <li><a class="navigation-link" href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="user-block">
-        <a href="catalog.html" class="navigation-link">Корзина</a>
+        <a class="navigation-link" href="catalog.html">Корзина</a>
       </div>
     </header>
     <main>
@@ -29,19 +29,19 @@
             <span class="slider-phones"></span>
             <b class="slider-header">Долго, дорого,<br>скрупулезно.</b>
             <p class="slider-paragraph">Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
-            <a href="#" class="btn btn-red slider-btn">Узнать больше</a>
+            <a class="btn btn-red slider-btn" href="#">Узнать больше</a>
           </li>
           <li class="slider-item">
             
             <b class="slider-header">Любим математику как никто другой</b>
             <p class="slider-paragraph">Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
-            <a href="#" class="btn btn-green slider-btn">Узнать больше</a>
+            <a class="btn btn-green slider-btn" href="#">Узнать больше</a>
           </li>
           <li class="slider-item">
             
             <b class="slider-header">Только ночь, только хардкор</b>
             <p class="slider-paragraph">Работать днем как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
-            <a href="#" class="btn btn-yellow slider-btn">Узнать больше</a>
+            <a class="btn btn-yellow slider-btn" href="#">Узнать больше</a>
           </li>
         </ul>
       </section>
@@ -50,7 +50,7 @@
           <li class="features-item">
             <h3 class="advertising-header">Веб-сайты</h3>
             <p class="advertising-paragraph">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a href="#" class="red-button">Заказать</a>
+            <a class="red-button" href="#">Заказать</a>
           </li>
           <li class="features-item"> 
             <h3 class="advertising-header">Приложения</h3>
@@ -108,9 +108,9 @@
       <section class="contacts">
         <img src="img/contacts.jpg" alt="Месторасположение магазина по адресу 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 на карте">
         <h3>Nёrds design studio</h3>
-        <address class="contacts-link">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-        <a href="tel:+7812275757" class="contacts-link"></a>
-        <a href="#" class="contacts-link">Напишите нам!</a>
+        <address class="contacts-address">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        <a class="contacts-phone" href="tel:+7812275757"></a>
+        <a class="btn btn-red contacts-btn" href="#">Напишите нам!</a>
       </section>
       <section class="social">
         <h2 class="visually-hidden">Социальные сети</h2>
@@ -122,25 +122,18 @@
       </section>
     </footer>
     <section class="modal-writeus">
-      <form method="get" action="https://echo.htmlacademy.ru">
+      <form method="post" action="https://echo.htmlacademy.ru" class="modal-writeus-form form-writeus">
         <fieldset>
           <h2>Напишите нам</h2>
-          <ul class="form-list">
-            <li>
-              <label for="name">Ваше имя:</label>
-              <input type="text" name="name" placeholder="Имя Фамилия" id="name">
-            </li>
-            <li>
-              <label for="email">Ваш e-mail:</label>
-              <input type="email" name="email" id="email" placeholder="email@example.com">
-            </li>
-            <li>
-              <label for="letter">Текст письма:</label>
-              <textarea name="comment" id="letter" placeholder="В свободной форме"></textarea>
-            </li>
-          </ul>
-          <button type="submit" value="send">Отправить</button>
-        </fieldset>
+          <div class="form-writeus-group">
+            <label class="form-writeus-label" for="name">Ваше имя:</label>
+            <input class="form-writeus-input" id="name" type="text" name="name" placeholder="Имя Фамилия" >
+            <label class="form-writeus-label" for="email">Ваш e-mail:</label>
+            <input class="form-writeus-input" id="email" type="email" name="email"  placeholder="email@example.com">
+            <label class="form-writeus-label" for="letter">Текст письма:</label>
+            <textarea class="form-writeus-textarea" id="letter" name="letter" placeholder="В свободной форме"></textarea>
+            <button type="submit" class="btn btn-red modal-writeus-btn">Отправить</button>
+          </div>
       </form>
     </section>
   </body>
