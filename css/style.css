@@ -1,11 +1,6 @@
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", "Arial" sans-serif;
 }
-
-.advantages-icon::before {
-    background-image: url("/img/advantages.jpg");
-}
-
 
 .learn-more {
 	background-color: #fb565a;
@@ -23,15 +18,25 @@ body {
 	line-height: 30px;
 }
 
+.navigation-link:hover {
+	color: #fb565a;
+}
+
+.navigation-link:active {
+    color: #bdbdbd;
+}
+
 .slider-paragraph {
 	font-size: 16px;
 	line-height: 24px;
+	color: #727578;
 }
 
 .slider-header {
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: bold;
+	color: #000000;
 }
 
 .advertising-header {
@@ -49,17 +54,20 @@ body {
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: bold;
+	color: #000000;
 }
 
 .services-paragraph {
 	font-size: 16px;
 	line-height: 24px;
+	color: #283136;
 }
 
 .services-header-2 {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: bold;
+	color: #000000
 }
 
 .our-services-list {
@@ -89,22 +97,27 @@ body {
 .services-link {
 	font-size: 16px;
 	line-height: 24px;
+	color: #283136;
 }
 
 .since-2004 {
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: bold;
+	color: #000000;
 }
 
 .procent {
 	font-size: 45px;
 	line-height: 10,06px;
+	color: #000000;
+	font-weight: bold;
 }
 
 .advantages-link {
 	font-size: 16px;
 	line-height: 18px;
+	color: #283136;
 }
 
 .contacts-link {
@@ -116,11 +129,13 @@ body {
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: bold;
+	color: #000000;
 }
 
 .lets-be-friends-paragraph {
 	font-size: 16px;
 	line-height: 22px;
+	color: #858585;
 }
 
 .shop {
@@ -134,6 +149,7 @@ body {
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: bold;
+	color: #000000;
 }
 
 .grid-content,
@@ -144,12 +160,14 @@ body {
 .show {
 	font-size: 16px;
 	line-height: 18px;
+	color: #000000;
 }
 
 .sort {
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: bold;
+	color: #000000;
 }
 
 .filter,
@@ -173,12 +191,168 @@ body {
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: bold;
-}
-
-.slider-phones::before {
-	background-image: url(img/slider-phones.jpg);
+	color: #000000;
 }
 
 .partner-item {
     color: #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.intro-title {
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+
+.from {
+	font-size: 16px;
+	line-height: 22px;
+	color: #283136;
+}
+
+.sort-item-count {
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.sort-item {
+	font-size: 14px;
+	line-height: 18px;
+	color: #cacaca;
+}
+
+.features-item {
+	font-size: 16px;
+	line-height: 20px;
+	color: #283136;
+}
+
+.catalog-item {
+	font-size: 16px;
+	line-height: 18px;
+	color: #b7b7b7;
+}
+
+.nine-thousand-nine-hundred {
+	color: #ffffff;
+	background-color: #fb565a;
+	border-color: 1px solid #fb565a;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.page-number {
+	font-size: 16px;
+	line-height: 18px;
+	color: #262626;
+	background-color: #eeeeee;
+	border-color: 1px solid #eeeeee;
+}
+
+.page-number-one {
+	font-size: 16px;
+	line-height: 18px;
+	color: #262626;
+	background-color: #ffffff;
+	border-color: 20px solid #dbdbdb;
+}
+
+.studio {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.contacts-address {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.btn-red {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff; 
+	background-color: #fb565a;
+	border-color: 1px solid #fb565a;
+}
+
+.btn-red:hover {
+	background-color: #e74246;
+	color: #ffffff;
+}
+
+.btn-red:active {
+	background-color: #d7373b;
+	color: #e48789;
+
+}
+
+.btn-green {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #00ca74;
+	border-color: 1px solid #00ca74;
+}
+
+.btn-green:hover {
+	background-color: #00bc6c;
+	color: #ffffff;
+}
+
+.btn-green:active {
+	background-color: #00aa62;
+	color: #74c69c;
+}
+
+.btn-yellow {
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #efc84a;
+	border-color: 1px solid #efc84a;
+}
+
+.btn-yellow:hover {
+    background-color: #eab534;
+    color: #ffffff;
+}
+
+.btn-yellow:active {
+	background-color: #e5a722;
+	color: #edc27a;
+}
+
+.advertising-header {
+	font-size: 24px;
+	line-height: 30px;
+	color: #000000;
+}
+
+.advertising-header {
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+}
+
+.features-item {
+	list-style-type: none;
+}
+
+.logo:hover {
+	color: #303030;
+}
+
+.logo:active {
+	color: #a6a6a6;
 }
