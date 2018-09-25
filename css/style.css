@@ -1,5 +1,5 @@
 body {
-	font-family: "Roboto", "Arial" sans-serif;
+	font-family: "Roboto", "Arial", sans-serif;
 }
 
 .learn-more {
@@ -29,7 +29,7 @@ body {
 .slider-paragraph {
 	font-size: 16px;
 	line-height: 24px;
-	color: #727578;
+	color: #283136;
 }
 
 .slider-header {
@@ -233,7 +233,6 @@ a {
 .sort-item-count {
 	font-size: 14px;
 	line-height: 18px;
-	color: #000000;
 }
 
 .sort-item {
@@ -251,7 +250,8 @@ a {
 .catalog-item {
 	font-size: 16px;
 	line-height: 18px;
-	color: #b7b7b7;
+	color: #666666;
+	font-weight: Regular;
 }
 
 .nine-thousand-nine-hundred {
