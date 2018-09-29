@@ -17,9 +17,10 @@ body {
 }
 
 .navigation-link {
-	font-size: 16px;
-	font-weight: medium;
 	color: #000000;
+
+	text-transform: uppercase;
+	font-size: 16px;
 	line-height: 30px;
 }
 
@@ -30,72 +31,24 @@ body {
 .navigation-link:active {
     color: #bdbdbd;
 }
-
-/*PAGE HEADER*/
-/*-----------*/
-
-
-/*INDEX.HTML*/
-/*MAIN*/
-/*SECTION .PROMO-SLIDER*/
-
-.slider-item {
-	list-style-type: none;
+/*VISUALLY HIDDEN*/
+.visually-hidden {
+	display: block;
+	visibility: hidden;
 }
-
-.slider-header {
-	color: #000000;
-
-	font-size: 55px;
-	line-height: 55px;
-	font-weight: bold;
-}
-
-.slider-paragraph {
-	color: #283136;
-
-	font-size: 16px;
-	line-height: 24px;
-}
-
-/*---------------------*/
-/*SECTION .PROMO-SLIDER*/
-
-
-/*SECTION .FEATURES*/
-
-.features-content {
-	list-style-type: none;
-}
-
-.features-item {
-	font-size: 16px;
-	line-height: 20px;
-	color: #283136;
-}
-
-.features-item {
-	list-style-type: none;
-}
-
-.advertising-header {
-	font-size: 24px;
-	line-height: 30px;
-	font-weight: bold;
-}
-
-.advertising-paragraph {
-	font-size: 16px;
-	line-height: 24px;
+/*BTN*/
+.btn {
+	text-decoration: none;
 }
 
 .btn-red {
 	color: #ffffff; 
 
+    text-decoration: none;
+	border: 1px solid #fb565a;
 	font-size: 16px;
 	line-height: 18px;
 	background-color: #fb565a;
-	border-color: 1px solid #fb565a;
 }
 
 .btn-red:hover {
@@ -114,10 +67,11 @@ body {
 .btn-green {
 	color: #ffffff;
 
+    text-decoration: none;
+	border: 1px solid #00ca74;
 	font-size: 16px;
 	line-height: 18px;
 	background-color: #00ca74;
-	border-color: 1px solid #00ca74;
 }
 
 .btn-green:hover {
@@ -135,10 +89,11 @@ body {
 .btn-yellow {
 	color: #ffffff;
 
+    text-decoration: none;
+	border: 1px solid #efc84a;
 	font-size: 16px;
 	line-height: 18px;
 	background-color: #efc84a;
-	border-color: 1px solid #efc84a;
 }
 
 .btn-yellow:hover {
@@ -152,36 +107,62 @@ body {
 
 	background-color: #e5a722;
 }
+/*INDEX.HTML; MAIN; SECTION .PROMO-SLIDER*/
+.slider-item {
+	list-style-type: none;
+}
+
+.slider-header {
+	color: #000000;
+
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.slider-paragraph {
+	color: #283136;
+
+	font-size: 16px;
+	line-height: 24px;
+}
+/*SECTION .FEATURES*/
+.features-content {
+	list-style-type: none;
+}
+
+.features-item {
+	color: #283136;
+
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.features-item {
+	list-style-type: none;
+}
 
 .advertising-header {
 	font-size: 24px;
 	line-height: 30px;
+}
+
+.advertising-paragraph {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.advertising-header {
 	color: #000000;
+
+	font-size: 24px;
+	line-height: 30px;
 }
-
-
-/*SECTION .FEATURES*/
-/*-----------------*/
-
-
-/*SECTION .DESCRIPTION*/
-
-.visually-hidden {
-	display: none;
-}
-
-/*SECTION .DESCRIPTION*/
-/*--------------------*/
-
-
 /*SECTION .SERVICE*/
-
 .services-header {
 	color: #000000;
 
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: bold;
 }
 
 .services-paragraph {
@@ -196,7 +177,6 @@ body {
 
 	font-size: 16px;
 	line-height: 24px;
-	font-weight: bold;
 }
 
 .our-services-list {
@@ -209,13 +189,7 @@ body {
 	font-size: 16px;
 	line-height: 24px;
 }
-
-/*SECTION .SERVICE*/
-/*-----------*/ 
-
-
 /*SECTION .ADVANTAGES*/
-
 .advantages-link {
 	color: #283136;
 
@@ -228,7 +202,6 @@ body {
 
 	font-size: 16px;
 	line-height: 24px;
-	font-weight: bold;
 }
 
 .procent {
@@ -236,7 +209,6 @@ body {
 
 	font-size: 45px;
 	line-height: 10,06px;
-	font-weight: bold;
 }
 
 .advantages-list {
@@ -244,21 +216,12 @@ body {
 
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
 }
 
 .advantage-content {
 	list-style-type: none;
 }
-
-
-
-/*SECTION .ADVANTAGES*/
-/*-------------------*/
-
-
 /*SECTION .PARTNERS*/
-
 .partners-list {
 	list-style-type: none;
 }
@@ -270,16 +233,7 @@ body {
 .partner-item a:active {
     opacity: 0.1;
 }
-
-/*SECTION .PARTNERS*/
-/*-----------------*/
-/*MAIN*/
-/*----*/
-
-
-/*PAGE-FOOTER*/
 /*SECTION .CONTACTS*/
-
 .contacts-link {
 	font-size: 16px;
 	line-height: 18px;
@@ -290,26 +244,18 @@ body {
 
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
 }
 
 .contacts-address {
 	font-size: 16px;
 	line-height: 18px;
 }
-
-/*SECTION .CONTACTS*/
-/*-----------------*/
-
-
 /*SECTION .SOCIAL*/
-
 .lets-be-friends {
 	color: #000000;
 
 	font-size: 36px;
 	line-height: 36px;
-	font-weight: bold;
 }
 
 .lets-be-friends-paragraph {
@@ -325,75 +271,56 @@ body {
 }
 
 .social-item a:active {
-	background-color: #e74246;
 	opacity: 0.3;
+	background-color: #e74246;
 }
 
 li.social-item {
 	list-style-type: none;
 }
-
-/*SECTION.SOCIAL*/
-/*--------------*/
-/*PAGE-FOOTER*/
-/*---------------------------------------*/
-
-
 /*SECTION .MODAL-WRITEUS*/
-
 .form-writeus-input:hover {
 	color: #b1b1b1;
 
+    border: 2px solid #b4b9bb;
 	background-color: #ffffff;
-	border: 2px solid #b4b9bb;
 }
 
 .form-writeus-input:focus {
     color: #444444;
 
-	background-color: #ffffff;
 	border: 2px solid #000000;
+	background-color: #ffffff;
 }
 
 .form-writeus-input:invalid {
     color: #e74246;
 
-	background-color: #ffffff;
 	border: 2px solid #e74246;
+	background-color: #ffffff;
 }
 
 .form-writeus-textarea:hover {
     color: #b1b1b1;
 
-	background-color: #ffffff;
 	border: 2px solid #b4b9bb;
+	background-color: #ffffff;
 }
 
 .form-writeus-textarea:focus {
     color: #444444;
 
-	background-color: #ffffff;
 	border: 2px solid #000000;
+	background-color: #ffffff;
 }
 
 .form-writeus-textarea:invalid {
     color: #e74246;
 
-	background-color: #ffffff;
 	border: 2px solid #e74246;
+	background-color: #ffffff;
 }
-
-/*SECTION .MODAL-WRITEUS*/
-/*---------------------------------------*/
-
-/*INDEX HTML*/
-/*---------------------------------------*/
-
-/*CATALOG HTML*/
-/*MAIN*/
-
-/*SECTION .INTRO*/
-
+/*CATALOG HTML; MAIN; SECTION .INTRO*/
 .intro-title {
 	color: #000000;
 	
@@ -411,7 +338,6 @@ li.social-item {
 
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
 }
 
 .catalog-content {
@@ -423,7 +349,6 @@ li.social-item {
 
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
 }
 
 .from {
@@ -438,7 +363,6 @@ li.social-item {
 
 	font-size: 18px;
 	line-height: 30px;
-	font-weight: bold;
 }
 
 .show {
@@ -458,8 +382,8 @@ li.social-item {
 .show:active {
 	color: #a9a9a9;
 
+	border: 2px solid #bfbfbf;
 	background-color: #d5d5d5;
-	border-top: 2px solid #bfbfbf;
 }
 
 .sort-by-priority {
@@ -497,38 +421,30 @@ li.social-item {
 .sort-item:active {
 	color: #000000;
 }
-
-
-
-/*SECTION .INTRO*/
-/*------------------------------*/
-
 /*SECTION .CATALOG*/
-
 .sort {
 	color: #000000;
 
 	font-size: 18px;
 	line-height: 18px;
-	font-weight: bold;
 }
 
 .page-number {
 	color: #262626;
 
+	border-color: 1px solid #eeeeee;
 	font-size: 16px;
 	line-height: 18px;
 	background-color: #eeeeee;
-	border-color: 1px solid #eeeeee;
 }
 
 .page-number-one {
 	color: #262626;
 
+	border: 20px solid #dbdbdb;
 	font-size: 16px;
 	line-height: 18px;
 	background-color: #ffffff;
-	border-color: 20px solid #dbdbdb;
 }
 
 .catalog-item {
@@ -551,8 +467,8 @@ li.social-item {
 }
 
 .learn-more {
+	border: #fb565a;
 	background-color: #fb565a;
-	border-color: #fb565a;
 }
 
 .shop {
@@ -574,48 +490,10 @@ li.social-item {
     background-color: #dfdfdf;
 }
 
-/*SECTION .CATALOG*/
-/*----------------*/
-/*MAIN*/
-/*------------------------------*/
-/*CATALOG HTML*/
+.sort-item {
+	text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.page-number {
+	text-decoration: none;
+}
