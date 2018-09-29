@@ -1,9 +1,7 @@
 body {
 	font-family: "Roboto", "Arial", sans-serif;
 }
-
 /*PAGE HEADER*/
-
 .logo:hover {
 	opacity: 0.6;
 }
@@ -18,7 +16,7 @@ body {
 
 .navigation-link {
 	color: #000000;
-
+    text-decoration: none;
 	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 30px;
@@ -43,7 +41,6 @@ body {
 
 .btn-red {
 	color: #ffffff; 
-
     text-decoration: none;
 	border: 1px solid #fb565a;
 	font-size: 16px;
@@ -53,20 +50,16 @@ body {
 
 .btn-red:hover {
 	color: #ffffff;
-
 	background-color: #e74246;
 }
 
 .btn-red:active {
 	color: #e48789;
-
 	background-color: #d7373b;
-
 }
 
 .btn-green {
 	color: #ffffff;
-
     text-decoration: none;
 	border: 1px solid #00ca74;
 	font-size: 16px;
@@ -76,19 +69,16 @@ body {
 
 .btn-green:hover {
 	color: #ffffff;
-
 	background-color: #00bc6c;
 }
 
 .btn-green:active {
 	color: #74c69c;
-
 	background-color: #00aa62;
 }
 
 .btn-yellow {
 	color: #ffffff;
-
     text-decoration: none;
 	border: 1px solid #efc84a;
 	font-size: 16px;
@@ -98,13 +88,11 @@ body {
 
 .btn-yellow:hover {
     color: #ffffff;
-
     background-color: #eab534;
 }
 
 .btn-yellow:active {
  	color: #edc27a;
-
 	background-color: #e5a722;
 }
 /*INDEX.HTML; MAIN; SECTION .PROMO-SLIDER*/
@@ -114,14 +102,12 @@ body {
 
 .slider-header {
 	color: #000000;
-
 	font-size: 55px;
 	line-height: 55px;
 }
 
 .slider-paragraph {
 	color: #283136;
-
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -132,7 +118,6 @@ body {
 
 .features-item {
 	color: #283136;
-
 	font-size: 16px;
 	line-height: 20px;
 }
@@ -153,28 +138,24 @@ body {
 
 .advertising-header {
 	color: #000000;
-
 	font-size: 24px;
 	line-height: 30px;
 }
 /*SECTION .SERVICE*/
 .services-header {
 	color: #000000;
-
 	font-size: 45px;
 	line-height: 45px;
 }
 
 .services-paragraph {
 	color: #283136;
-
 	font-size: 16px;
 	line-height: 24px;
 }
 
 .services-header-2 {
-	color: #000000
-
+	color: #000000;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -185,35 +166,30 @@ body {
 
 .services-link {
 	color: #283136;
-
 	font-size: 16px;
 	line-height: 24px;
 }
 /*SECTION .ADVANTAGES*/
 .advantages-link {
 	color: #283136;
-
 	font-size: 16px;
 	line-height: 18px;
 }
 
 .since-2004 {
 	color: #000000;
-
 	font-size: 16px;
 	line-height: 24px;
 }
 
 .procent {
 	color: #000000;
-
 	font-size: 45px;
 	line-height: 10,06px;
 }
 
 .advantages-list {
 	color: #000000;
-
 	font-size: 18px;
 	line-height: 30px;
 }
@@ -241,30 +217,27 @@ body {
 
 .studio {
 	color: #000000;
-
 	font-size: 18px;
 	line-height: 30px;
 }
 
 .contacts-address {
+	font-style: normal;
 	font-size: 16px;
 	line-height: 18px;
 }
 /*SECTION .SOCIAL*/
 .lets-be-friends {
 	color: #000000;
-
 	font-size: 36px;
 	line-height: 36px;
 }
 
 .lets-be-friends-paragraph {
 	color: #858585;
-
 	font-size: 16px;
 	line-height: 22px;
 }
-
 
 .social-item a:hover {
 	background-color: #e74246;
@@ -281,49 +254,42 @@ li.social-item {
 /*SECTION .MODAL-WRITEUS*/
 .form-writeus-input:hover {
 	color: #b1b1b1;
-
     border: 2px solid #b4b9bb;
 	background-color: #ffffff;
 }
 
 .form-writeus-input:focus {
     color: #444444;
-
 	border: 2px solid #000000;
 	background-color: #ffffff;
 }
 
 .form-writeus-input:invalid {
     color: #e74246;
-
 	border: 2px solid #e74246;
 	background-color: #ffffff;
 }
 
 .form-writeus-textarea:hover {
     color: #b1b1b1;
-
 	border: 2px solid #b4b9bb;
 	background-color: #ffffff;
 }
 
 .form-writeus-textarea:focus {
     color: #444444;
-
 	border: 2px solid #000000;
 	background-color: #ffffff;
 }
 
 .form-writeus-textarea:invalid {
     color: #e74246;
-
 	border: 2px solid #e74246;
 	background-color: #ffffff;
 }
 /*CATALOG HTML; MAIN; SECTION .INTRO*/
 .intro-title {
 	color: #000000;
-	
 	font-size: 55px;
 	line-height: 55px;
 }
@@ -335,7 +301,7 @@ li.social-item {
 
 .catalog-header {
 	color: #000000;
-
+    text-decoration: none;
 	font-size: 18px;
 	line-height: 30px;
 }
@@ -346,28 +312,24 @@ li.social-item {
 
 .count {
 	color: #000000;
-
 	font-size: 18px;
 	line-height: 30px;
 }
 
 .from {
 	color: #283136;
-
 	font-size: 16px;
 	line-height: 22px;
 }
 
 .grid-list {
 	color: #000000;
-
 	font-size: 18px;
 	line-height: 30px;
 }
 
 .show {
 	color: #000000;
-
 	font-size: 16px;
 	line-height: 18px;
 	background-color: #eeeeee;
@@ -375,13 +337,11 @@ li.social-item {
 
 .show:hover {
 	color: #000000;
-
 	background-color: #dfdfdf;
 }
 
 .show:active {
 	color: #a9a9a9;
-
 	border: 2px solid #bfbfbf;
 	background-color: #d5d5d5;
 }
@@ -401,7 +361,6 @@ li.social-item {
 
 .sort-item {
 	color: #cacaca;
-
 	font-size: 14px;
 	line-height: 18px;
 }
@@ -424,14 +383,12 @@ li.social-item {
 /*SECTION .CATALOG*/
 .sort {
 	color: #000000;
-
 	font-size: 18px;
 	line-height: 18px;
 }
 
 .page-number {
 	color: #262626;
-
 	border-color: 1px solid #eeeeee;
 	font-size: 16px;
 	line-height: 18px;
@@ -440,7 +397,6 @@ li.social-item {
 
 .page-number-one {
 	color: #262626;
-
 	border: 20px solid #dbdbdb;
 	font-size: 16px;
 	line-height: 18px;
@@ -449,7 +405,6 @@ li.social-item {
 
 .catalog-item {
 	color: #666666;
-
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -484,7 +439,6 @@ li.social-item {
 .partner-item:hover {
     color: #000000;
 }
-
 
 .page-number:hover {
     background-color: #dfdfdf;
