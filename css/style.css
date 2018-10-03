@@ -456,6 +456,8 @@ li.social-item {
 	width: 100%;
 	height: auto;
 	background-color: #eeeeee;
+	display: flex;
+	flex-direction: row;
 }
 
 .promo-slider {
