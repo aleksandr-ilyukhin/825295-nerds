@@ -451,3 +451,28 @@ li.social-item {
 .page-number {
 	text-decoration: none;
 }
+
+.page-header {
+	width: 100%;
+	height: auto;
+	background-color: #eeeeee;
+}
+
+.promo-slider {
+	background-color: #eeeeee;
+}
+
+.page-footer {
+	width: 100%;
+	height: auto;
+}
+
+.navigation-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.navigation-link {
+	margin: 48px;
+	margin-bottom: 70px;
+}
