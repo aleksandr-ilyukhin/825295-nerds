@@ -452,14 +452,6 @@ li.social-item {
 	text-decoration: none;
 }
 
-.page-header {
-	width: 100%;
-	height: auto;
-	background-color: #eeeeee;
-	display: flex;
-	flex-direction: row;
-}
-
 .promo-slider {
 	background-color: #eeeeee;
 }
@@ -480,6 +472,19 @@ li.social-item {
 }
 
 .social-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.page-header-content {
+	width: 100%;
+	height: auto;
+	background-color: #eeeeee;
 	display: flex;
 	flex-direction: row;
 }
